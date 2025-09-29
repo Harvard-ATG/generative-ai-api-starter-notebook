@@ -48,6 +48,6 @@ This section is for users who chose to run the notebooks locally.
 
 ### 🔒 Secure Your API Key
 
-For security, **never share your API key or save it directly in your notebook**. Instead, use a secure method like an environment variable locally, or secrets on Colab. The `getting-started.ipynb` notebook will show you how to do this for your very first run.
+For security, **never share your API key or save it directly in your notebook**. Instead, use a secure method like an environment variable locally, or secrets on Colab. The [`getting-started.ipynb`](./getting_started/getting_started.ipynb) notebook will show you how to do this for your very first run.
 
 If you have any questions, feel free to open an issue or reach out to [atg@harvard.edu](mailto:atg@harvard.edu)
