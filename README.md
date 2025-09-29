@@ -39,9 +39,9 @@ This repository is organized by provider and use case. Each folder contains note
 This section is for users who chose to run the notebooks locally.
 
 * **Clone the Repository:**
-    `git clone https://github.com/Bok-ATG/generative-ai-api-starter-notebooks.git`
+    `git clone https://github.com/Harvard-ATG/generative-ai-api-starter-notebook.git`
 * **Navigate into the Project Folder:**
-    `cd generative-ai-api-starter-notebooks`
+    `cd generative-ai-api-starter-notebook`
 * **Begin with the Getting Started notebook:**
 
 ---
