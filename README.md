@@ -1,6 +1,10 @@
-# Generative AI API Starter Notebooks
+# Generative AI API Starter Notebook
 
-This repository is a beginner-friendly collection of notebooks designed to help you access powerful AI models through their APIs. You can create, analyze, and experiment with these models—your way.
+This repository contains a beginner-friendly notebook created for members of those Harvard community who have received an OpenAI API Key from the HUIT Academic Technology Team. Learn more on that process to receive an OpenAI API Key from Academic Technology, here. If you already have your HUIT Academic Technology OpenAI Key, let's dive in!
+
+So, what's an API? An API, or Application Programming Interface, is simply a method to interact with software, like AI models, using code. This notebook will guide you step-by-step and make getting started *easy*!
+
+Using the OpenAI API in this notebook, you will learn how use an API to unlock power model features and gain the skills to create, analyze, and experiment with these models—your way.
 
 You don't need to be an expert to use these notebooks. Just follow the steps below, and you'll be running your first AI model in minutes.
 
@@ -43,6 +47,7 @@ This section is for users who chose to run the notebooks locally.
 * **Navigate into the Project Folder:**
     `cd generative-ai-api-starter-notebook`
 * **Begin with the Getting Started notebook:**
+    `getting_started.ipynb`
 
 ---
 
