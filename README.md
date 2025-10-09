@@ -6,7 +6,7 @@ If you already have your API Key, let's dive in! If not, learn more about the pr
 
 Why use an API to access AI models?
 
-An API, or Application Programming Interface, is simply a method to interact with software, like AI models, using code. Using the OpenAI API in this notebook, you will learn to unlock power model features and gain the skills to create, analyze, and experiment with these models—your way.
+- An API, or Application Programming Interface, is simply a method to interact with software, like AI models, using code. Using the OpenAI API in this notebook, you will learn to unlock power model features and gain the skills to create, analyze, and experiment with these models—your way.
 
 You don't need to be an expert to use these notebooks. Just follow the steps below, and you'll be running your first AI model in minutes.
 
