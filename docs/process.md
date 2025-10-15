@@ -17,8 +17,8 @@ This guide outlines how your request for an API key moves from submission to sec
 | :---: | :--- | :--- | :--- |
 | 1 | Submit form w/ project details (HarvardKey) | Review, approve, track | Request queued |
 | 2 | Wait | Provision key in API portal | Key created |
-| 3 | Save your key & link | Share other keys via secure delivery | **Access granted** |
-| 4 | Begin project, track use | Close ticket | Academic work begins |
+| 3 | Save your key & link from secure email / file transfer we send | Store key securely and share other keys via secure delivery | **Access granted** |
+| 4 | Complete starter notebook and begin your project | Close ticket | Academic work begins |
 
 ---
 
