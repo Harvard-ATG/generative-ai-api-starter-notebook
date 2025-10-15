@@ -1,15 +1,9 @@
----
-title: Academic Technology: Generative AI API Access Guide
----
-
 # Academic Technology: Generative AI API Access Guide
 
 *(For Harvard FAS, GSAS, and GSE affiliates – faculty & students)*
 
 Welcome to your secure, short-term gateway to **OpenAI's powerful Large Language Model (LLM) APIs**, managed by Harvard Academic Technology.  
 This service supports academic research, course work, and exploration—typically for **one academic term or less**.
-
-## Home: Generative AI API Access Portal
 
 **Eligibility:**
 
@@ -20,10 +14,9 @@ This service supports academic research, course work, and exploration—typicall
 
 | Service Component | Detail |
 | :--- | :--- |
-| **API Key:** | Direct access to the **OpenAI API** (GPT-3.5, GPT-4 as available) |
+| **API Key:** | Direct access to the **OpenAI API** and models (GPT-3.5, GPT-4, etc) |
 | **Duration:** | Short-term (up to **one academic term per project**) |
-
-Plus: **Step-by-step Starter Notebook** (no coding experience needed, runs in your browser).
+| **Starter Notebook:** | no code started guide to get started |
 
 ---
 

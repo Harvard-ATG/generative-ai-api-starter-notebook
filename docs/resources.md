@@ -1,7 +1,3 @@
----
-title: Resources & Support
----
-
 # Resources & Support
 
 ## Getting Started with Your Access

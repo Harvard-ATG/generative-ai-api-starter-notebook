@@ -1,12 +1,8 @@
----
-title: Request & Delivery Process
----
-
 # Request & Delivery Process
 
 This guide outlines how your request for an API key moves from submission to secure delivery. 
 
-> **API key security is paramount at every step.**
+> **API key security is essential at every step.**
 
 ## Four Simple Steps
 
