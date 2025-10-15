@@ -1,0 +1,554 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Secure, short-term OpenAI API access for Harvard FAS/GSAS/GSE affiliates with policies, usage, and support.">
+      
+      
+        <meta name="author" content="Harvard Academic Technology Group">
+      
+      
+      
+      
+        <link rel="next" href="process/">
+      
+      
+      <link rel="icon" href="assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>Academic Technology - Generative AI API Access Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.2a3383ac.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="harvard" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#title-academic-technology-generative-ai-api-access-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Academic Technology - Generative AI API Access Guide" class="md-header__button md-logo" aria-label="Academic Technology - Generative AI API Access Guide" data-md-component="logo">
+      
+  <img src="assets/harvard_shield.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Academic Technology - Generative AI API Access Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Academic Technology - Generative AI API Access Guide" class="md-nav__button md-logo" aria-label="Academic Technology - Generative AI API Access Guide" data-md-component="logo">
+      
+  <img src="assets/harvard_shield.svg" alt="logo">
+
+    </a>
+    Academic Technology - Generative AI API Access Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#title-academic-technology-generative-ai-api-access-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      title: Academic Technology: Generative AI API Access Guide
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#academic-technology-generative-ai-api-access-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Academic Technology: Generative AI API Access Guide
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Academic Technology: Generative AI API Access Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#home-generative-ai-api-access-portal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Home: Generative AI API Access Portal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-usage-policy-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Critical Usage &amp; Policy Requirements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="process/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Request & Delivery Process
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources & Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#title-academic-technology-generative-ai-api-access-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      title: Academic Technology: Generative AI API Access Guide
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#academic-technology-generative-ai-api-access-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Academic Technology: Generative AI API Access Guide
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Academic Technology: Generative AI API Access Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#home-generative-ai-api-access-portal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Home: Generative AI API Access Portal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-usage-policy-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Critical Usage &amp; Policy Requirements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<hr />
+<h2 id="title-academic-technology-generative-ai-api-access-guide">title: Academic Technology: Generative AI API Access Guide<a class="headerlink" href="#title-academic-technology-generative-ai-api-access-guide" title="Permanent link">&para;</a></h2>
+<h1 id="academic-technology-generative-ai-api-access-guide">Academic Technology: Generative AI API Access Guide<a class="headerlink" href="#academic-technology-generative-ai-api-access-guide" title="Permanent link">&para;</a></h1>
+<p><em>(For Harvard FAS, GSAS, and GSE affiliates – faculty &amp; students)</em></p>
+<p>Welcome to your secure, short-term gateway to <strong>OpenAI's powerful Large Language Model (LLM) APIs</strong>, managed by Harvard Academic Technology.<br />
+This service supports academic research, course work, and exploration—typically for <strong>one academic term or less</strong>.</p>
+<h2 id="home-generative-ai-api-access-portal">Home: Generative AI API Access Portal<a class="headerlink" href="#home-generative-ai-api-access-portal" title="Permanent link">&para;</a></h2>
+<p><strong>Eligibility:</strong></p>
+<ul>
+<li>Harvard <strong>FAS, GSAS, or GSE</strong> faculty or student</li>
+<li>Academic project, research, or course</li>
+</ul>
+<p><strong>What you get:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Service Component</th>
+<th style="text-align: left;">Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>API Key:</strong></td>
+<td style="text-align: left;">Direct access to the <strong>OpenAI API</strong> (GPT-3.5, GPT-4 as available)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Duration:</strong></td>
+<td style="text-align: left;">Short-term (up to <strong>one academic term per project</strong>)</td>
+</tr>
+</tbody>
+</table>
+<p>Plus: <strong>Step-by-step Starter Notebook</strong> (no coding experience needed, runs in your browser).</p>
+<hr />
+<h2 id="critical-usage-policy-requirements">⚠️ Critical Usage &amp; Policy Requirements<a class="headerlink" href="#critical-usage-policy-requirements" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>Please review these fundamental rules before requesting an API key:</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Policy Area</th>
+<th style="text-align: left;">Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Usage Limit:</strong></td>
+<td style="text-align: left;"><strong>$25 of API credit</strong> per key, for the duration of the term.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Eligibility:</strong></td>
+<td style="text-align: left;">Only FAS, GSAS, and GSE affiliates are eligible. HBS, HMS affiliates should contact their local IT team.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Authentication:</strong></td>
+<td style="text-align: left;">Request form requires <strong>HarvardKey</strong> login.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Key Security:</strong></td>
+<td style="text-align: left;">Do <strong>not</strong> share your API key in public or team spaces (Slack, GitHub, SharePoint, etc.). Each user must have a unique key.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Distribution:</strong></td>
+<td style="text-align: left;">If given multiple keys (for a class/workshop), <strong>securely distribute</strong> and instruct recipients in safe handling.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>See <a href="process/">Request &amp; Delivery Process</a> for detailed steps, or visit <a href="resources/">Resources &amp; Support</a> for notebook instructions and help.</em></p>
+<p>Ready to begin?<br />
+Next: <em><a href="process/">See how to apply and receive your API key »</a></em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
