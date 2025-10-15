@@ -5,12 +5,12 @@
 Welcome to your secure, short-term gateway to **OpenAI's powerful Large Language Model (LLM) APIs**, managed by Harvard Academic Technology.  
 This service supports academic research, course work, and exploration—typically for **one academic term or less**.
 
-**Eligibility:**
+## Eligibility:
 
 - Harvard **FAS, GSAS, or GSE** faculty or student
 - Academic project, research, or course
 
-**What you get:**
+## What you get:
 
 | Service Component | Detail |
 | :--- | :--- |
@@ -33,7 +33,7 @@ This service supports academic research, course work, and exploration—typicall
 | **Distribution:** | If given multiple keys (for a class/workshop), **securely distribute** and instruct recipients in safe handling. |
 
 ---
-**Next Step:**
+## Next Step:
 - [See how to apply and receive your API key »](process.md). 
 
 Ready to begin?  
