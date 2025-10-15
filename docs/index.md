@@ -16,7 +16,7 @@ This service supports academic research, course work, and exploration—typicall
 | :--- | :--- |
 | **API Key:** | Direct access to the **OpenAI API** and models (GPT-3.5, GPT-4, etc) |
 | **Duration:** | Short-term (up to **one academic term per project**) |
-| **Starter Notebook:** | no code started guide to get started |
+| **Starter Notebook:** | No code jupyter notebook guide to getting started using API in python |
 
 ---
 
@@ -33,8 +33,8 @@ This service supports academic research, course work, and exploration—typicall
 | **Distribution:** | If given multiple keys (for a class/workshop), **securely distribute** and instruct recipients in safe handling. |
 
 ---
-
-*See [Request & Delivery Process](process.md) for detailed steps, or visit [Resources & Support](resources.md) for notebook instructions and help.*
+**Next Step:**
+- [See how to apply and receive your API key »](process.md). 
 
 Ready to begin?  
 Next: *[See how to apply and receive your API key »](process.md)*
