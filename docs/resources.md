@@ -6,8 +6,7 @@
 
 * **API Access:** Enables use of the OpenAI Direct API for integration in research/code/projects.
     * *Note: This is NOT the public ChatGPT website.*
-* **Starter Notebook:**
-    * [Use the Generative AI API Starter Notebook](https://github.com/Harvard-ATG/generative-ai-api-starter-notebook/blob/main/README.md) – beginner-friendly, no programming required.
+* **Starter Notebook:** [Use the Generative AI API Starter Notebook](https://github.com/Harvard-ATG/generative-ai-api-starter-notebook/blob/main/README.md) – beginner-friendly, no programming required.
     * *Recommended:* Launch directly in your browser with Google Colab.
 
 ---
