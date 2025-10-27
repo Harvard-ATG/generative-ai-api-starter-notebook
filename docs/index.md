@@ -26,8 +26,8 @@ This service supports academic research, course work, and exploration—typicall
 
 | Policy Area | Details |
 | :--- | :--- |
-| **Usage Limit:** | **$25 of API credit** per key, for the duration of the term. |
-| **Eligibility:** | Only FAS, GSAS, and GSE affiliates are eligible. HBS, HMS affiliates should contact their local IT team. |
+| **Usage Limit:** | **$25 of API credit per month** per key, for the duration of the term. |
+| **Eligibility:** | Only FAS, GSAS, and GSE affiliates are eligible. Affiliates of other schools (HBS, HMS, etc.) should contact their local IT team. |
 | **Authentication:** | Request form requires **HarvardKey** login. |
 | **Key Security:** | Do **not** share your API key in public or team spaces (Slack, GitHub, SharePoint, etc.). Each user must have a unique key. |
 | **Distribution:** | If given multiple keys (for a class/workshop), **securely distribute** and instruct recipients in safe handling. |
