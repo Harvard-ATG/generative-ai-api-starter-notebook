@@ -1,0 +1,36 @@
+site_name: Academic Technology - Generative AI API Access Guide
+site_description: Secure, short-term OpenAI API access for Harvard FAS/GSAS/GSE affiliates with policies, usage, and support.
+site_author: Harvard Academic Technology Group
+
+# Choose your preferred theme (mkdocs or material are the most common)
+theme:
+  name: material  # or 'mkdocs' if you prefer the default
+
+nav:
+  - Home: index.md
+  - Request & Delivery Process: process.md
+  - Resources & Support: resources.md
+
+theme:
+  name: material
+  palette:
+    scheme: harvard
+  logo: assets/harvard_shield.svg
+  favicon: assets/favicon.ico
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.details
+
+  - toc:
+      permalink: true
+  - footnotes
+  - tables
+  - attr_list
+plugins:
+  - search
