@@ -1,8 +1,14 @@
 # Generative AI API Starter Notebook
 
+<<<<<<< Updated upstream
 This repository contains a beginner-friendly notebook to use an API to interact with OpenAI LLM models. The repository was created for members of those Harvard community who have received an OpenAI API Key from the HUIT Academic Technology Team. 
 
 If you already have your API Key, let's dive in! If not, learn more about the process to obtain a key here.
+=======
+This repository contains a beginner-friendly notebook to use an API to interact with OpenAI LLM models. The repository was created for members of those Harvard community who have received an OpenAI API Key from the HUIT Academic Technology Team.
+
+If you already have your API key, let's dive in! If not, learn more about the process to obtain a key [here](https://harvard-atg.github.io/generative-ai-api-starter-notebook/).
+>>>>>>> Stashed changes
 
 Why use an API to access AI models?
 
