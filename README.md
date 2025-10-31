@@ -24,7 +24,7 @@ Choose the best option for you to begin working with the notebooks.
 
 This is the fastest and easiest way to start. Just click the button below, and the notebook will open directly in your browser. You don't need to install anything!
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harvard-ATG/generative-ai-api-starter-notebook/blob/initial_setup/getting_started/getting_started.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harvard-ATG/generative-ai-api-starter-notebook/blob/main/getting_started/getting_started.ipynb)
 
 **Option 2: Run Locally**
 
