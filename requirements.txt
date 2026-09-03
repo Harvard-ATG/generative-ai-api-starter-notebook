@@ -4,4 +4,4 @@ requests
 
 # For building documentation site with MkDocs and Material for MkDocs
 mkdocs==1.6.1
-mkdocs-material==9.6.21
+mkdocs-material==9.7.7
